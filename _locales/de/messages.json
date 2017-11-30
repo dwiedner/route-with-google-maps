@@ -1,0 +1,26 @@
+{
+	"extensionName": {
+		"message": "Route mit Google Maps",
+		"description": "Name der Erweiterung"
+	},
+	"extensionDescription": {
+		"message": "Fügt einen Kontextmenüeintrag hinzu, um die Route zur ausgewählten Adresse mit Google Maps anzuzeigen.",
+		"description": "Beschreibung der Erweiterung"
+	},
+	"contextMenuTitle": {
+		"message": "Route zu '%s'",
+		"description": "Kontextmenütext"
+	},
+	"optionsStartAddressDescription":{
+		"message": "Start-Adresse für die Navigation. Dieses Feld kann auch leer gelassen werden um den markierten Text nur auf der Karte anzeigen zu lassen.",
+		"description": "Description for start address field"
+	},
+	"optionsStartAddressLabel":{
+		"message": "Start-Adresse",
+		"description": "Label for start address input field"
+	},
+	"optionsSaveButton":{
+		"message": "Speichern",
+		"description": "Label for save button"
+	}
+}

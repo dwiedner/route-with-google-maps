@@ -1,0 +1,35 @@
+{
+    "manifest_version": 2,
+    "name": "__MSG_extensionName__",
+    "description": "__MSG_extensionDescription__",
+    "version": "1.0",
+    "homepage_url": "https://github.com/dwiedner/route-with-google-maps",
+	"default_locale": "en",
+	
+	"applications": {
+		"gecko": {
+			"id": "route-with-google-maps-addon@daniel-wiedner.de"
+		}
+	},
+
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+	
+	"icons": {
+		"48": "GoogleMaps.svg",
+        "96": "GoogleMaps.svg"
+    },
+	
+	"options_ui": {
+		"page": "options/index.html",
+		"browser_style": true
+	},
+
+    "permissions": [
+        "contextMenus",
+		"storage"
+    ]
+}

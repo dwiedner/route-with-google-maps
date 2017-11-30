@@ -1,0 +1,26 @@
+{
+	"extensionName": {
+		"message": "Route with Google Maps",
+		"description": "Name of the extension"
+	},
+	"extensionDescription": {
+		"message": "Add a context menu option to get a route for the highlighted address using Google Maps.",
+		"description": "Description of the extension"
+	},
+	"contextMenuTitle": {
+		"message": "Route to '%s'",
+		"description": "Context menu text"
+	},
+	"optionsStartAddressDescription":{
+		"message": "Enter a start address for the navigation. This field can be left empty to just show the highlighted text on the map.",
+		"description": "Description for start address field"
+	},
+	"optionsStartAddressLabel":{
+		"message": "Start address",
+		"description": "Label for start address input field"
+	},
+	"optionsSaveButton":{
+		"message": "Save",
+		"description": "Label for save button"
+	}
+}
