@@ -20,7 +20,7 @@ function restoreOptions() {
 	var storageItem = browser.storage.sync.get('startAddress');
 	storageItem.then((res) => {
 		var address = res.startAddress;
-		if (routestart === "undefined" || routestart == null) {
+		if (address === "undefined" || address == null) {
 			address = "";
 		}
 		
